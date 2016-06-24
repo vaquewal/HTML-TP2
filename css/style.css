@@ -1,0 +1,466 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Sacado del curso de css */
+/* hace que el ancho de los box */
+/* no se vea afectado por el padding y el border */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contenedor {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+header {
+	height: 100px;
+}
+
+header nav a img {
+	margin-top: 30px;
+}
+
+header nav ul{
+	float: right;
+	margin-top: 40px;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0px 10px;
+	margin-top: 5px;
+	letter-spacing: 1px;
+}
+
+header nav ul li:first-child a{
+	font-weight: 700;
+	color: black;
+}
+
+header nav ul li:last-child a{
+	font-weight: 700;
+	color: grey;
+}
+
+.section1 {
+	background-image: url("../assets/indexbanner-bg3.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover; /* cubre toda la secction1*/
+}
+
+.regular_updates {
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin-left: 150px;
+    margin-top: 200px;
+}
+
+.regular_updates h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+.regular_updates p {
+	margin-top: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: grey;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+input[type="text"] {
+    width: 50%;
+    height: 80px;
+    display: inline-block;
+    float: left;
+    margin-left: 25%;
+    margin-top: 160px;
+}
+input[type="submit"] {
+    width: 140px;
+    height: 80px;
+    font-size: 0;
+    display: inline-block;
+    float: left;
+    margin-top: 160px;
+ /*   background-image: url("../assets/search.png");
+ */	background-color: cyan;
+  	border: none;
+}
+
+.section2 ul {
+	margin-top: 150px;
+}
+
+.section2_li {
+	width: 22%;
+	display: inline-block;
+	padding: 15px 0px;
+	vertical-align: middle;
+}
+
+.section2_point {
+	width: 1%;
+	display: inline-block;
+	padding: 0px 10px;
+	transform: rotate(90deg);
+}
+
+.section2_li img {
+	height: 80px;
+	width: 80px;
+	margin: 0 30%;
+}
+
+.section2_li h6 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 45px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+
+}
+
+.section2_li p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 11px;
+	padding: 0;
+	margin-top: 15px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	color: grey;
+    text-align: center;
+    line-height: 23px;
+}
+
+.hostro_services img {
+	margin: 0 50%;
+}
+
+.hostro_services h2, .section4 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 25px 38%;
+    width: 270px;
+}
+
+.hostro_services p, .section4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+	margin-bottom: 70px;
+
+}
+
+.section3 .iz, .section3 .centro, .section3 .der {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 80px;
+}
+
+.section3 .iz {
+    text-align: right;
+}
+
+.section3 .centro {
+	margin:0 47px;
+}
+
+
+.iz ul li article div {
+    display: inline-block;
+    width: 80%;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
+.iz ul li article h6 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 19px;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+}
+
+.iz ul li article p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    padding: 0;
+    margin-top: 15px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: grey;
+    text-align: right;
+    line-height: 23px;
+}
+
+.iz ul li article img {
+	float: right;
+}
+
+
+.der ul li article div {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+.der ul li article h6 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 19px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+
+.der ul li article p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    padding: 0;
+    margin-top: 15px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: grey;
+    text-align: left;
+    line-height: 23px;
+}
+
+.der ul li article img {
+	float: left;
+}
+
+
+.section4 {
+	background-image: url("../assets/pricing-bg.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover; /* cubre toda la secction1*/
+	margin-top: -80px;
+}
+
+.section4 div img {
+	margin: 150px 50% 10px;
+}
+
+
+
+
+
+.section5 .contenedor article {
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 10px rgba(233,233,233,10);
+}
+
+.section5 article h6 {
+	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.section5 .precio {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    padding: 0;
+    letter-spacing: 0px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    line-height: 23px;
+}
+
+sup {
+	vertical-align: super;
+    font-size: large;
+}
+
+.section5 div div article p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: grey;
+    text-align: center;
+    line-height: 4;
+}
+
+.promo1, .promo2, .promo3, .promo4 {
+	width: 23%;
+	display: inline-block;
+	margin-top: -135px;
+	background: white;
+	margin-bottom: 90px;
+}
+
+.section5 .promo2 {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.section5 .promo3 {
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.section5 table {
+	width: 70%;
+    margin: 31px;
+}
+
+.promot {
+	font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: grey;
+}
+
+.promon{
+	font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.promo1 .promon {
+	color: cyan;
+}
+.promo2 .promon {
+	color: rgb(240,210,95);
+}
+.promo3 .promon {
+	color: orange;
+}
+.promo4 .promon {
+	color: red;
+}
+
+.section5 div div article div p a {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+	text-decoration: none;
+	color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section5 div div article div {
+	width: 70%;
+	height: 40px;
+	background: #0FBEFA;
+    margin: auto;
+    margin-bottom: 35px;
+	border-radius: 6%;
+	padding-bottom: 48px;
+}
+
+
+.section6 {
+	background: #002D4B;
+	width: 100%;
+	height: 190px;
+}
+
+.section6 p {
+	font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    padding: 0;
+    letter-spacing: 0px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    line-height: 7;
+}
+
+.section6 p span {
+	color: #0FBEFA;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.section7 {
+	background: #002033;
+	width: 100%;
+	height: 100px;
+}
+
+.section7 div p {
+	color: grey;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    float: left;
+    margin-top: 50px;
+}
+
+.section7 div nav ul {
+	float: right;
+	margin-top: 40px;
+}
+
+.section7 div nav ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.section7 div nav ul li a {
+	color: grey;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
